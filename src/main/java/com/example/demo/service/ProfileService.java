@@ -1,5 +1,8 @@
-package com.example.demo;
+package com.example.demo.service;
 
+import com.example.demo.model.Profile;
+import com.example.demo.ProfileCreatedEvent;
+import com.example.demo.data.ProfileRepository;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;

@@ -1,5 +1,6 @@
-package com.example.demo;
+package com.example.demo.data;
 
+import com.example.demo.model.Profile;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;
