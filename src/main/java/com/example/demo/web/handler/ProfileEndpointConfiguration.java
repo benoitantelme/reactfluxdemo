@@ -1,7 +1,6 @@
 package com.example.demo.web.handler;
 
 import com.example.demo.web.CaseInsensitiveRequestPredicate;
-import com.example.demo.web.handler.ProfileHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.server.RequestPredicate;

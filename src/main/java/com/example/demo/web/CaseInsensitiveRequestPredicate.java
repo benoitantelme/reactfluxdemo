@@ -11,7 +11,7 @@ public class CaseInsensitiveRequestPredicate implements RequestPredicate {
 
     private final RequestPredicate target;
 
-    CaseInsensitiveRequestPredicate(RequestPredicate target) {
+    public CaseInsensitiveRequestPredicate(RequestPredicate target) {
         this.target = target;
     }
 
